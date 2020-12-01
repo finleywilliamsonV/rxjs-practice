@@ -21,6 +21,10 @@
         ],
         "no-console": "off",
         "no-alert": "off",
+        "semi": [
+            "error",
+            "never"
+        ],
         "quotes": [
             2,
             "single"
