@@ -12,24 +12,25 @@
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "prefer-arrow"
     ],
     "rules": {
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
-        "no-console": "off",
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "windows"],
         "no-alert": "off",
-        "semi": [
-            "error",
-            "never"
+        "no-console": "off",
+        "no-use-before-define": "off",
+        "quotes": [2, "single"],
+        "semi": ["error", "never"],
+        "prefer-arrow/prefer-arrow-functions": [
+            "warn",
+            {
+              "disallowPrototype": true,
+              "singleReturnOnly": false,
+              "classPropertiesAllowed": true
+            }
         ],
-        "quotes": [
-            2,
-            "single"
-        ],
-        "indent": [4, "error"],
-        "no-use-before-define": "off"
+        "func-style": ["error", "expression"]
     }
 }
