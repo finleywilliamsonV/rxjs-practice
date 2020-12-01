@@ -30,6 +30,9 @@
               "classPropertiesAllowed": true
             }
         ],
-        "func-style": ["error", "expression"]
+        "func-style": ["error", "expression"],
+        "comma-dangle": "off",
+        "no-plusplus": "off",
+        "no-magic-numbers": "error"
     }
 }
