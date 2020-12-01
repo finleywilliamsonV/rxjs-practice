@@ -29,6 +29,7 @@
             2,
             "single"
         ],
+        "indent": [4, "error"],
         "no-use-before-define": "off"
     }
 }
