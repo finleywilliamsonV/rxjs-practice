@@ -33,6 +33,7 @@
         "func-style": ["error", "expression"],
         "comma-dangle": "off",
         "no-plusplus": "off",
-        "no-magic-numbers": "error"
+        "no-magic-numbers": "error",
+        "no-unused-expressions": "off"
     }
 }
